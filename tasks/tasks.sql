@@ -1,0 +1,5 @@
+ CREATE TABLE task (
+id SERIAL PRIMARY KEY NOT NULL,
+	name VARCHAR (50),
+	notes VARCHAR (200)
+	); 

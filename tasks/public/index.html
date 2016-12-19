@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Task Master</title>
+    <script src="vendor/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="scripts/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="addTask">
+      <h2>Add Task</h2>
+      <input type="text" id="nameIn" value="" placeholder="Name">
+      <input type="text" id="notesIn" value="" placeholder="Notes">
+      <button type="button" id="addTaskButton">Add Task </button>
+    </div>
+    <select>
+      <option id = "completed" value = "complete">Complete</option>
+      <option id = "deleted" value = "delete">Delete</option>
+    </select>
+    <p id = "complete">Task status: completed</p>
+    <p id = "delete"> Task status: deleted</p>
+    <div id="viewTasks">
+    </div>
+  </body>
+</html>
